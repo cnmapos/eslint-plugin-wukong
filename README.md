@@ -1,7 +1,7 @@
 # eslint-plugin-wukong
 我是Vue3黑神话·悟空版eslint规范插件，依据[《浅读Vue3代码10万行，总结出30个代码规范》](https://juejin.cn/post/7402811750771851275)而定制。提供base、recommended两个配置。
 
-我正在快速成长，还不够成熟，需要大家的支持，欢迎大家pr、star、fork。
+我正在快速成长，还不够成熟，需要大家的帮忙，欢迎大家pr、star、fork。
 
 ## config:base
 包含js、typescript、vue开发常用的eslint配置：
