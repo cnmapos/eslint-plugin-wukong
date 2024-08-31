@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016", 
+    /* Modules */
+    "module": "commonjs",                            
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    /* Type Checking */
+    "strict": true, 
+    "skipLibCheck": true, 
+    "rootDir": "src",
+    "outDir": "lib"
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "examples"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-wukong",
+  "version": "1.0.0",
+  "description": "heavi",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "tsc --build ./tsconfig.json --watch",
+    "build": "rm -rf lib && tsc --build ./tsconfig.json",
+    "eslint": "eslint --fix",
+    "prettier": "prettier --write src/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.5.1",
+    "eslint": "^9.9.1",
+    "eslint-plugin-check-file": "^2.8.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.3.0"
+  }
+}
